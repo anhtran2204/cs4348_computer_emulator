@@ -8,7 +8,7 @@ Due Date:   Saturday, March 2, 2024
 
 
 
-## I.  Project Organization
+# I.  Project Organization
 
 
 You should do the following pieces to complete your project.  Each piece is explained below:
@@ -38,9 +38,9 @@ Summary
 
 
  
-## II.  Project Description
+# II.  Project Description
 
-Language/Platform
+## Language/Platform
 
 The project must be written in C, C++, or Java.  
 If using C or C++, you must use a Unix fork to create processes and a Unix pipe for communication.
@@ -50,14 +50,14 @@ All code must run successfully on our cs1.utdallas.edu server or csgrads1.utdall
 Any other method requires instructor approval.
 
 
-# Problem Overview
+## Problem Overview
 
 The project will simulate a simple computer system consisting of a CPU and Memory.
 The CPU and Memory will be simulated by separate processes that communicate.
 Memory will contain one program that the CPU will execute and then the simulation will end.
 
 
-# Objectives
+## Objectives
 
 1)	Learn how multiple processes can communicate and cooperate.
 2)	Understand low-level concepts important to an operating system. 
@@ -72,7 +72,7 @@ i.	I/O.
 j.	Virtualization/emulation
 
 
-# Problem Details
+## Problem Details
 
 CPU
    It will have these registers:  PC, SP, IR, AC, X, Y.
@@ -113,8 +113,8 @@ Memory
  
   Instruction set
 
-    1 = Load value                    
-    2 = Load addr
+    1 = Load value                     Load the value into the AC                   
+    2 = Load addr                     
     3 = LoadInd addr   
    
     4 = LoadIdxX addr
@@ -146,8 +146,8 @@ Memory
    28 = Pop
    29 = Int 
    30 = IRet
-   50 = End	Load the value into the AC
-Load the value at the address into the AC
+   50 = End	
+
 Load the value from the address found in the given address into the AC
 (for example, if LoadInd 500, and 500 contains 100, then load from 100).
 Load the value at (address+X) into the AC
@@ -193,7 +193,7 @@ A line may begin by a period followed by a number which causes the loader to cha
 Your program should run correctly with the any valid input files.
 
 
-# Sample Programs
+## Sample Programs
 
 The input program filename and timer interrupt value should be command line arguments, for example:
    java Project1 program.txt 30
