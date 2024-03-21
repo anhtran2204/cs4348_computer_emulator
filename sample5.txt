@@ -1,0 +1,61 @@
+.0  // This sample5.txt will reverse a word by push each letter on the stack in reverse
+1   // Load 0 to end loop
+0
+27  // Push AC onto stack
+1   // Load 68
+68
+9   // Print to screen
+2
+27  // Push AC onto stack
+1   // Load 101
+101
+9   // Print to screen
+2
+27  // Push AC onto stack
+1   // Load 115
+115
+9   // Print to screen
+2
+27  // Push AC onto stack
+1   // Load 115
+115
+9   // Print to screen
+2
+27  // Push AC onto stack
+1   // Load 101
+101
+9   // Print to screen
+2
+27  // Push AC onto stack
+1   // Load 114
+114
+9   // Print to screen
+2
+27  // Push AC onto stack
+1   // Load 116
+116
+9   // Print to screen
+2
+27  // Push AC onto stack
+1   // Load 115
+115
+9   // Print to screen
+2
+27  // Push AC onto stack
+1    // Load newline
+10
+9    // Output newline
+2
+28  // Pop from stack to AC
+9   // Print to screen
+2
+22  // Jump to address if AC != 0
+47
+1    // Load newline
+10
+9    // Output newline
+2
+50  // End
+
+.1000
+30  // IRet
