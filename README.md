@@ -8,7 +8,7 @@ Due Date:   Saturday, March 2, 2024
 
 
 
-I.  Project Organization
+## I.  Project Organization
 
 
 You should do the following pieces to complete your project.  Each piece is explained below:
@@ -38,7 +38,7 @@ Summary
 
 
  
-II.  Project Description
+## II.  Project Description
 
 Language/Platform
 
@@ -50,14 +50,14 @@ All code must run successfully on our cs1.utdallas.edu server or csgrads1.utdall
 Any other method requires instructor approval.
 
 
-Problem Overview
+# Problem Overview
 
 The project will simulate a simple computer system consisting of a CPU and Memory.
 The CPU and Memory will be simulated by separate processes that communicate.
 Memory will contain one program that the CPU will execute and then the simulation will end.
 
 
-Objectives
+# Objectives
 
 1)	Learn how multiple processes can communicate and cooperate.
 2)	Understand low-level concepts important to an operating system. 
@@ -72,7 +72,7 @@ i.	I/O.
 j.	Virtualization/emulation
 
 
-Problem Details
+# Problem Details
 
 CPU
    It will have these registers:  PC, SP, IR, AC, X, Y.
@@ -183,7 +183,7 @@ End execution
 
 •	Don’t add to this list without approval
  
-Input File Format
+# Input File Format
 
 Each instruction is on a separate line, with its operand (if any) on the following line.
 The instruction or operand may be followed by a comment which the loader will ignore.
@@ -193,7 +193,7 @@ A line may begin by a period followed by a number which causes the loader to cha
 Your program should run correctly with the any valid input files.
 
 
-Sample Programs
+# Sample Programs
 
 The input program filename and timer interrupt value should be command line arguments, for example:
    java Project1 program.txt 30
